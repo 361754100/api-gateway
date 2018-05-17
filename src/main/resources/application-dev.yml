@@ -2,12 +2,12 @@ spring:
   application:
     name: api-gateway
 server:
-  port: 5555
+  port: 8099
 
 zuul:
   routes:
     api-cmanager:
-      path: api-cmanager/**
+      path: /api-cmanager/**
       serviceId: CMANAGER-SERVICE
 
 eureka:

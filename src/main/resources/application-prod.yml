@@ -7,7 +7,7 @@ server:
 zuul:
   routes:
     api-cmanager:
-      path: api-cmanager/**
+      path: /api-cmanager/**
       serviceId: CMANAGER-SERVICE
 
 eureka:
