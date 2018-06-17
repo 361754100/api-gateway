@@ -87,4 +87,18 @@
         </plugins>
     </build>
 
+    <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <name>Nexus Releases Repository Pro</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+        </repository>
+
+        <snapshotRepository>
+            <id>nexus-public-snapshots</id>
+            <name>Nexus Snapshots Repository Pro</name>
+            <url>http://maven.aliyun.com/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 </project>
